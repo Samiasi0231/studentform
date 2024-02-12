@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <section class="loginpage">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">Student Portal</a>
+              <div class="navbar-nav ml-auto">
+               <a href="./index.html"> <button class="nav-item nav-link">Home</button></a> 
+               <a href="./dash.html"> <button class="nav-item nav-link " href="#">Dashboard</button></a>               
+              </div>
+            </div>
+          </nav>
+    
+        <div class="containerlog">
+         <div class="row justify-content-center">
+        <div class="col-md-6">
+        <div class="card mt-5">
+       <div class="card-header bg-dark">
+                       <img src="./images/icon.png" alt="Logo" id="profile-pic">
+                       <label class="proflabel bg-primary" for="input-file">update image</label>
+                       <input class="profinput" type="file"accept="image/svg,image/png,image/jpg" id="input-file">
+                         <h3 class="text-center text-color text-white">Student Login</h3>
+                             </div>
+                        <div class="card-body">
+                              <form class="Studentlogin" action="#"  method="post">
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Enter password">
+                                </div>
+                                <div class="form-group">
+                                  <label for="email">email</label>
+                                  <input type="email" class="form-control" id="email" placeholder="email">
+                              </div>
+                               <a href="./dash.html"><button type="submit" class="logbtn btn-block bg-primary">Login</button></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./constants.js"></script>
+<script src="./login.js"></script>
+</body>
+</html>

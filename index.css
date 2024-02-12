@@ -1,0 +1,126 @@
+
+    
+
+.firstpage {
+  background-image: url(./images/WhatsApp\ .jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 150vh;
+}
+
+
+
+
+.Reg-container {
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: hsl(26, 7%, 19%);
+  padding: 30px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+
+
+
+.loginpage{
+  background-image: url(./images/WhatsApp\ .jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.nav-item{
+    background-color: hsl(224, 95%, 36%);
+    border-radius: 10px;
+}
+#profile-pic{
+  width: 200px;
+  height: 200px;
+  border-radius:150px;
+}
+.proflabel{
+  display: block;
+  width:100px;
+  padding: 12;
+  color: white;
+  margin: 10px;
+  margin-left: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.profinput{
+  display: none;
+}
+.logo {
+  max-width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+.logbtn{
+  background-color: hsl(24, 79%, 73%);
+}
+
+
+.Frame{
+  margin-left:40%;
+align-content: center;
+}
+.box1{
+  background-color:#E6EBFF;
+  border: 1px;
+  width: 150px;
+  height: 150px;
+}
+.img1{
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.row1{
+  margin-left: 20%;
+  display: flex;
+}
+.rowbox1{
+  background-color:#E6EBFF;
+  border: 1px;
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+}
+.messagepage{
+  background-image: url(./images/smessage\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.coursepage{
+  background-image: url(./images/course\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.Dashboardpage{
+  background-image: url(./images/elon\ musk.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180vh;
+}
+.attendpage{
+  background-image: url(./images/smessage\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180vh;
+}
+.resultpage{
+  background-image: url(./images/WhatsApp\ .jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180vh;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Page</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ 
+
+</head>
+<body>
+  <section class="firstpage">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Student Portal</a>
+        <div class="navbar-nav ml-auto">
+          <button  class="nav-item nav-link ">registration</button>
+          <button href="index.html" class="nav-item nav-link ">Login</button>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container">
+      <div class="Reg-container">
+        <h2>Welcome back</h2>
+        <H6 class="Hello">Hello dear fill the form to create an account</H6>
+        <form class="regform" action="#"  method="post">
+          <div class="form-group">
+            <label for="email">email</label>
+            <input type="text" class="form-control" id="email" name="firstname" required>
+          </div>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="username" name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="firstname">firstname</label>
+            <input type="text" class="form-control" id="firstname" name="firstname" required>
+          </div>
+          <div class="form-group">
+            <label for="Lastname">Lastname</label>
+            <input type="text" class="form-control" id="lastname" name="Lastname" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="Gender">Gender</label>
+            <select class="form-control" id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="female">female</option>
+                <option value="male">Male</option>
+                <option value="nonbinary">nonbinary</option>
+            </select>
+        </div>
+          <div class="form-group">
+            <label for="department">Department</label>
+            <select class="form-control" id="department" name="department" required>
+                <option value="">Select Department</option>
+                <option value="computer science">computer science</option>
+                <option value="Biochemistry">Biochemistry</option>
+                <option value="Engreening">Engreening</option>
+            </select>
+        </div>
+        <button  class="btn bg-primary btn-block">registration</button>     
+       </form>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="constants.js"></script>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
+
